@@ -1,0 +1,4 @@
+co\edu\escuelaing\loginservice\login\Sparklogin.class
+co\edu\escuelaing\loginservice\Sparkserver.class
+co\edu\escuelaing\loginservice\security\SecureUrlReader.class
+co\edu\escuelaing\loginservice\login\Autheconnect.class
