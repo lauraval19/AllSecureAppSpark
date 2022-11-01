@@ -54,7 +54,6 @@ La aplicación de 12 factores es una metodología para construir aplicaciones de
 
 ![imagen](https://user-images.githubusercontent.com/98195579/199170994-a1255c90-4c7d-44cf-b808-d326db876b24.png)
 
-
 ![imagen](https://user-images.githubusercontent.com/98195579/199170961-3271f1ec-6d44-4037-8eca-16b155225425.png)
 
 ### Todo esto se puede ver evidenciado en el siguiente video
