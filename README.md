@@ -1,14 +1,20 @@
 # Aplicación distribuida segura en todos sus frentes
 
-Desarrolle una aplicación Web segura con los siguientes requerimientos:
+Desarrollar una aplicación Web segura con los siguientes requerimientos:
 
-    Debe permitir un acceso seguro desde el browser a la aplicación. Es decir debe garantizar autenticación, autorización e integridad de usuarios.
-    Debe tener al menos dos computadores comunicacndose entre ellos y el acceso de servicios remotos debe garantizar: autenticación, autorización e integridad entre los servicios. Nadie puede invocar los servicios si no está autorizado.
-    Explique como escalaría su arquitectura de seguridad para incorporar nuevos servicios.
+![imagen](https://user-images.githubusercontent.com/98195579/199172079-6daa0544-1479-413a-9333-00185f493cb1.png)
+
+- Debe permitir un acceso seguro desde el browser a la aplicación. Es decir debe garantizar autenticación, autorización e integridad de usuarios.
+- Debe tener al menos dos computadores comunicacndose entre ellos y el acceso de servicios remotos debe garantizar: autenticación, autorización e integridad entre los servicios. Nadie puede invocar los servicios si no está autorizado.
+- Explique como escalaría su arquitectura de seguridad para incorporar nuevos servicios.
 
 ## Funcionamiento
 
 La aplicación contiene un browser como cliente, un servicio de Login y otro servicio que valida si el usuario está autenticado para loggearlo corriendo cada uno en una instancia independiente en AWS.
+
+### Link del servicio para loggear al usuario
+
+https://github.com/lauraval19/SecureApp
 
 La arquitectura se puede escalar generando certificados propios de los nuevos servicios y la inclusión del certificado del nuevo servicio el archivo myTrustStore, para autorizar el acceso desde que recibimos credenciales, en el directorio de los certificados autorizados de el servicio de login.
 
