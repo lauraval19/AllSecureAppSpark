@@ -12,6 +12,9 @@ La aplicación está compuesta de 3 componentes: browser como cliente, un servic
 
 ### Iniciar sesión con usuario y contraseña correctos
 ![imagen](https://user-images.githubusercontent.com/98195579/199167524-1d7e706f-66e1-4935-b96d-d20676c8e66b.png)
+### Iniciar sesión con usuario correcto y contraseña incorrecta
+
+### Iniciar sesión con usuario y contraseña incorrectos
 
 ## Adicional
 
