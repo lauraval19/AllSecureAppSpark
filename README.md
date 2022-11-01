@@ -16,7 +16,7 @@ La aplicación contiene un browser como cliente, un servicio de Login y otro ser
 
 https://github.com/lauraval19/SecureApp
 
-La arquitectura se puede escalar generando certificados propios de los nuevos servicios y la inclusión del certificado del nuevo servicio el archivo myTrustStore, para autorizar el acceso desde que recibimos credenciales, en el directorio de los certificados autorizados de el servicio de login.
+La arquitectura se puede escalar generando certificados propios de los nuevos servicios y la inclusión del certificado del nuevo servicio el archivo myTrustStore, para autorizar el acceso desde que recibimos credenciales en el directorio de los certificados autorizados de el servicio de login. Es decir, en el servicio de login, recibimos los parametros del usuario y contraseña para hacer luego el llamado al otro servicio para loogerase. En el servicio para loggearse, recibe las credenciales y valida con el único usuario autorizado el acceso a este.
 
 1.Generamos un par de llaves públicas y privadas y un certificado para almacenarlo en un archivo protegido. Esto, tomando en cuenta si usar  “localhost” o "url de la aplicación desplegada en aws" como nombre del certificado.
 
